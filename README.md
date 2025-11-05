@@ -1,1 +1,0 @@
-# Diabetic_Retinopathy_detection
