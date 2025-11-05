@@ -2,6 +2,23 @@
 
 A web-based application for automated diabetic retinopathy detection using deep learning.
 
+## Quick Start (Windows)
+
+- Install Python 3.9+ and Git.
+- Clone the repo: `git clone https://github.com/<your-username>/Diabetic_Retinopathy_detection.git`
+- In the project folder, run: `./setup.ps1` (PowerShell)
+- Start the app: `./run.ps1`
+- Open `http://127.0.0.1:5000/` in your browser.
+
+Models are tracked via Git LFS. After cloning, run:
+
+```
+git lfs install
+git lfs pull
+```
+
+If you downloaded a source archive from GitHub and models are missing, use the release ZIP artifact or clone via Git with LFS.
+
 ## Project Overview
 
 This application uses a convolutional neural network (CNN) to analyze retinal images and detect signs of diabetic retinopathy, classifying them into five stages:
@@ -29,17 +46,17 @@ The application follows a client-server architecture:
 
 ### Prerequisites
 
-- Python 3.7 or higher
+- Python 3.9 or higher
 - pip (Python package manager)
 
 ### Installation Steps
 
 1. Clone the repository or download the project files
 
-2. Create and activate a virtual environment (recommended):
+2. Alternatively to the scripts, create and activate a virtual environment (recommended):
    ```
-   python -m venv venv
-   venv\Scripts\activate  # On Windows
+   python -m venv .venv
+   .venv\Scripts\activate  # On Windows
    ```
 
 3. Install the required dependencies:
@@ -47,11 +64,10 @@ The application follows a client-server architecture:
    pip install -r requirements.txt
    ```
 
-4. Generate the model file (for demonstration):
+4. Ensure models are present (Git LFS):
    ```
-   cd model
-   python dr_model.py
-   cd ..
+   git lfs install
+   git lfs pull
    ```
 
 5. Run the Flask application:
@@ -131,3 +147,13 @@ This project is for educational purposes only.
 ## Author
 
 Final Year Project - 2025
+## Release Usage
+
+- Download the latest release ZIP from GitHub Releases.
+- Extract, open PowerShell, and run `./setup.ps1` to create a virtual environment and install dependencies.
+- Run `./run.ps1` to start the app.
+
+## Versioning
+
+- Current version: see `VERSION` file.
+- See `RELEASE_NOTES.md` for changes.
