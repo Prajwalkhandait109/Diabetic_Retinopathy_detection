@@ -1,0 +1,23 @@
+# Exclude local virtual environments and caches
+env/
+dr/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+# Git and IDE metadata
+.git/
+.gitignore
+.vscode/
+
+# Frontend dev assets (not needed in container runtime)
+DR-frontend/
+
+# Large local uploads and samples (optional for runtime)
+static/uploads/
+sample_images/
+
+# Logs and temporary files
+*.log
+tmp/

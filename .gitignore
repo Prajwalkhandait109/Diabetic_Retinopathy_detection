@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual envs
+env/
+dr/
+
+# Flask runtime uploads
+static/uploads/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+.vscode/
+.idea/
+readme.txt
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual envs
+env/
+dr/
+
+# Flask runtime uploads
+static/uploads/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (frontend)
+DR-frontend/node_modules/
+DR-frontend/dist/
+
+# Misc
+.vscode/
+.idea/
