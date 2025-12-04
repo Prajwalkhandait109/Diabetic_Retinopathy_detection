@@ -5,7 +5,7 @@ A web-based application for automated diabetic retinopathy detection using deep 
 ## Quick Start (Windows)
 
 - Install Python 3.9+ and Git.
-- Clone the repo: `git clone [https://github.com/<your-username>/Diabetic_Retinopathy_detection.git](https://github.com/Prajwalkhandait109/Diabetic_Retinopathy_detection.git)`
+- Clone the repo: `git clone https://github.com/Prajwalkhandait109/Diabetic_Retinopathy_detection.git`
 - In the project folder, run: `./setup.ps1` (PowerShell)
 - Start the app: `./run.ps1`
 - Open `http://127.0.0.1:5000/` in your browser.
